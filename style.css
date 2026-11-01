@@ -582,3 +582,7 @@ a {
     flex-direction: column;
   }
 }
+
+.contact-grid .contact-item:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
